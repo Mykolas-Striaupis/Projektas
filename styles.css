@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+}
+
+header {
+    background-color: lightblue;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background-image: url('https://media.istockphoto.com/id/1442402088/photo/real-snowboarders-fall-at-offpiste-ski-slope.jpg?s=2048x2048&w=is&k=20&c=XIntS7JgXsvj65dLISYkaz2zA2eYPDic_il-TPH6jv8=');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;  /* Padidintas aukštis */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#about {
+    background-color: lightblue;
+}
+
+#trails {
+    background-color: lightpurple;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: lightblue;
+    color: white;
+}
+
+footer p {
+    font-size: 14px;
+}
